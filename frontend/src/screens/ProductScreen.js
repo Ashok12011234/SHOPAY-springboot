@@ -51,8 +51,8 @@ const ProductScreen = ({ history, match }) => {
       );
 
       setVariants(response.data);
-      setTypes(response.data[0].key);
-      setValues(response.data[0].value);
+      //setTypes(response.data[0].key);
+      //setValues(response.data[0].value);
     }
 
     fetchMyAPI();
@@ -97,7 +97,7 @@ const ProductScreen = ({ history, match }) => {
                 {attribute.name}:{attribute.value}
               </ListGroup.Item>
             ))}
-
+           {/*
             {variants.length !== 1 &&
               variants.map((variant) => (
                 <Button
@@ -113,7 +113,7 @@ const ProductScreen = ({ history, match }) => {
                   {variant.value.map((type) => `${type} - `)}
                 </Button>
               ))}
-
+                */ }
             <ListGroup.Item className="my-5 bg-dark variant-dark">
               <h2 className="text-center text-white m-0">Price: ${currentVariant.price}</h2>
             </ListGroup.Item>

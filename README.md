@@ -1,10 +1,7 @@
 
 # SHOPAY
-Single Vendor E-Commerce Platform
-
-This project is for CS3042 - Database Systems
-
-
+Single Vendor E-Commerce Platform 
+Backend is built on spring boot
 
 ## Features
 
@@ -60,17 +57,6 @@ Go to the project directory
   cd backend
 ```
 
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run devStart
-```
 ## Deployment
 
 Deployment link :
@@ -79,11 +65,4 @@ Deployment link :
 Dummy Admin credentials:
 
 Dummy User credentials:
-
-## Authors
-
-- [@Abinesh](https://github.com/abinesht)
-- [@Gopinath](https://github.com/shangopi)
-- [@Ashokkumar](https://github.com/Ashok12011234)
-- [@Kesavi](https://github.com/KesaviAravinthan)
 
